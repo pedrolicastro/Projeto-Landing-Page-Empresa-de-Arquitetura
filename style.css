@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: #303030;
+    padding: 200px 0px 150px 70px;
+}
+
+#titulo-cabecalho {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFF;
+}
+
+#texto-cabecalho {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFF;
+}
+
+#destaques {
+    padding: 70px 0px 150px 200px;
+}
+
+#itens {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.formato-itens {
+    font-family: "inter";
+    color:#000;
+}
+
+.formato-itens h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.formato-itens p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#contexto {
+    display: flex;
+    padding: 0px 0px 100px 100px;
+}
+
+#conteudo-escrito {
+    padding-left: 50px;
+    padding-top: 250px;
+}
+
+img {
+    padding-left: 80px;
+    width: 750px;
+}
+
+#titulo-contexto {
+    font-family: "inter";
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#texto-contexto {
+    padding-top: 50px;
+    font-family: "inter";
+    font-weight: 300;
+    font-size: 28px;
+}
+
+#formulario {
+    background-color: #303030;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#titulo-formulario {
+    margin: 25px;
+    color: #FFF;
+    font-family: "inter";
+    font-weight: 700;
+}
+
+input {
+    width: 500px;
+    height: 70px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 0px 30px 20px;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 24px;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #0000004D;
+}
+
+button {
+    margin: 60px;
+    background-color: #C07212;
+    border: none;
+    width: 286px;
+    height: 74px;
+    color: #FFF;
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ac6e21;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: 0.5s;
+}
+
+
+
